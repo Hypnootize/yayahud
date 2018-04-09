@@ -289,10 +289,10 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"-380"
-		"ypos"			"cs-0.5-180"
+		"xpos"			"9999"
+		"ypos"			"cs-0.5-120"
 
-		"zpos"			"1"
+		"zpos"			"-51"
 		"wide"			"1000"
 		"tall"			"1000"
 		"visible"		"0"
@@ -303,24 +303,100 @@
 
 		"show_progress"	"0"
 	}
+
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"210"
+		"ypos"			"cs-0.5-154"
+		"zpos"			"15"
+		"wide"			"28"
+		"tall"			"28"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"0"
+		"labelText"		"@"
+		"use_proportional_insets" "1"
+		"font"			"SymbolS"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+				
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+			
+		"FgColor"  "227 227 227 255"	
+		"defaultFgColor_override"  "227 227 227 255"	
+		"armedFgColor_override" "Flavor"
+		"depressedFgColor_override" "227 227 227 255"	
+			
+		"image_drawcolor"	"0 0 0 0"
+		"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
+	}
+
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"9999"
+		"ypos"			"99"
+		"zpos"			"-1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
 	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"-40"
-		"ypos"			"18"
-		"zpos"			"-52"
+		"xpos"			"-105"
+		"ypos"			"15"
+		"zpos"			"1"
 		"wide"			"320"
-		"tall"			"115"
-		"visible"		"1"
+		"tall"			"114"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
 
 		"show_model"	"0"
+		"show_type"		"1"
+	}
+
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"c-290"
+		"ypos"			"94"
+		"zpos"			"-100"
+		"wide"			"260"
+		"tall"			"0"		//60
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		"proportionaltoparent"	"1"
 	}
 	
 	"FriendsContainer"

@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -118,6 +123,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -182,7 +192,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,18 +200,17 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"1"
+			"xpos"			"65"
 			"ypos"			"0"
-			"wide"			"205"
+			"wide"			"f0"
 			"zpos"			"100"
-			"tall"			"24"
+			"tall"			"22"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HeavyCaps26"
@@ -213,43 +221,77 @@
 
 			if_mini
 			{
-				"xpos"			"65"
-				"ypos"			"5"
-				"wide"		"f0"
-				"tall"			"20"
 				"visible"	"0"
-				"font"		"HudFontSmallishBold"
-				"fgcolor_override"	"TanLight"
-				"textAlignment"	"north-west"
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"1"
-			"ypos"			"25"
-			"wide"			"205"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
+			"ypos"			"37"
+			"wide"			"195"
 			"zpos"			"100"
-			"tall"			"24"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HeavyCaps26"
+			"font"			"HeavyCaps18"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-				"wide"			"f0"
-				"tall"			"20"
 				"font"	"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
-				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"HeavyCaps18"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"22"
+			"wide"			"195"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HeavyCaps18"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"font"	"HudFontSmallestBold"
+			}
+
+			"fonts"
+			{
+				"0"		"HeavyCaps18"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 
@@ -257,9 +299,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"0"
+			"xpos"			"64"
 			"ypos"			"0"
-			"wide"			"205"
+			"wide"			"190"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -289,8 +331,8 @@
 					"xpos"			"0"
 					"ypos"			"rs1"
 					"zpos"			"0"
-					"wide"			"100"
-					"tall"			"0"
+					"wide"			"0"
+					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -301,7 +343,7 @@
 					
 					if_mini
 					{
-						"tall"	"20"
+						"wide"			"100"
 					}
 				}
 
@@ -312,8 +354,8 @@
 					"xpos"			"rs1"
 					"ypos"			"rs1"
 					"zpos"			"0"
-					"wide"			"100"
-					"tall"			"0"
+					"wide"			"0"
+					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -324,7 +366,7 @@
 					
 					if_mini
 					{
-						"tall"	"20"
+						"wide"			"100"
 					}
 				}
 
@@ -352,11 +394,6 @@
 
 						"fgcolor_override"	"20 20 20 180"
 						"bgcolor_override"	"0 0 0 0"
-						
-						if_mini
-						{
-							"wide"	"f0"
-						}
 					}
 
 					"ContinuousProgressBar"
@@ -384,11 +421,6 @@
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
-						
-						if_mini
-						{
-							"wide"	"f0"
-						}
 					}
 				}
 			}
