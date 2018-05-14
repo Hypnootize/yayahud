@@ -2,19 +2,26 @@
 {	
     "ServerTimeLimitLabel"
     {
-        "ControlName"        		"CExLabel"
-        "fieldName"                "ServerTimeLimitLabel"
-        "xpos"                        "4"
-        "ypos"                        "-1"
-        "zpos"                        "-1"
-        "wide"                        "80"
-        "tall"                        "20"
-        "visible"                	"1"
-        "enabled"                	"1"
-        "labelText"                "%servertimeleft%"
-        "textAlignment"                "west"
-        "font"                        "MediumNumbers20"
-        "fgcolor"					"White"
+        "ControlName"		"CExLabel"
+        "fieldName"			"ServerTimeLimitLabel"
+        "xpos"				"4"
+        "ypos"				"-1"
+        "zpos"				"-1"
+        "wide"				"80"
+        "tall"				"20"
+        "visible"			"1"
+        "enabled"			"1"
+        "labelText"			"%servertimeleft%"
+        "textAlignment"		"west"
+        "font"				"MediumNumbers20"
+        "fgcolor"			"White"
+		
+		if_match
+		{
+			"xpos"			"c-14"
+			"ypos"			"16"
+			"font"			"MediumNumbers12"
+		}
     }
     "ServerTimeLimitLabelBG"
     {
@@ -32,6 +39,11 @@
         "textAlignment"         "center"
         "font"                  "Shapes64"
         "fgcolor"		        "Blank"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
     }
 	"TimePanelBG"
 	{
@@ -63,6 +75,11 @@
         "src_corner_width"      "23"
         "draw_corner_width"     "0"
         "draw_corner_height"    "0"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
     }
     "TimeSubBG"
 	{
@@ -76,6 +93,11 @@
 		"fillcolor"		"Blank"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -102,6 +124,11 @@
 		"wrap"			"0"
 		"font"			"NoveMedium10"
 		"fgcolor"			"White"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -119,6 +146,11 @@
         "textAlignment"         "center"
         "font"                  "Shapes64"
         "fgcolor"		        "Blank"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 	"OvertimeLabel"
 	{
@@ -138,6 +170,11 @@
 		"wrap"			"0"
 		"font"			"NoveMedium10"
 		"fgcolor"			"White"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -155,6 +192,11 @@
         "textAlignment"         "center"
         "font"                  "Shapes64"
         "fgcolor"		        "Blank"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -174,6 +216,11 @@
 		"wrap"			"0"
 		"font"			"NoveMedium10"
 		"fgcolor"			"White"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -191,6 +238,11 @@
         "textAlignment"         "center"
         "font"                  "Shapes64"
         "fgcolor"		        "Blank"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}	
 	"SetupLabel"
 	{
@@ -210,6 +262,11 @@
 		"wrap"			"0"
 		"font"			"NoveMedium10"
 		"fgcolor"			"White"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}	
 	"SetupBG"
 	{
@@ -227,5 +284,10 @@
         "textAlignment"         "center"
         "font"                  "Shapes64"
         "fgcolor"		        "Blank"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}	
 }

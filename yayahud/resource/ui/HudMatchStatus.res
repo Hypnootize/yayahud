@@ -210,7 +210,7 @@
  	{
  		"ControlName"		"EditablePanel"
  		"fieldName"			"BGFrame"
- 		"xpos"				"cs-0.5"
+ 		"xpos"				"9999"
  		"ypos"				"-5"
  		"zpos"				"0"
  		"wide"				"365"
@@ -219,11 +219,6 @@
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
-
-		if_match
-		{
-			"visible"		"1"
-		}
  	}
 	
 	"RankUpLabel"
@@ -293,12 +288,13 @@
 		
 		if_match
 		{
+			"ypos"				"8"
 			"zpos"				"4"
 		}
 		
 		"TimePanelValue"
         {
-            "ControlName"		"CExLabel"
+            "ControlName"	"CExLabel"
             "fieldName"		"TimePanelValue"
             "font"			"MediumNumbers20"
             "fgcolor"		"White"
@@ -309,13 +305,12 @@
             "tall"			"20"
             "visible"		"1"
             "enabled"		"1"
-            "textAlignment"		"center"
+            "textAlignment"	"center"
             "labelText"		"0:00"
 			
 			if_match
 			{
 				"font"		"MediumNumbers16"
-				"ypos"		"7"
 			}
 		}	
 	}
