@@ -2,98 +2,113 @@
 {
 	"ServerBrowserButton"
 	{
-		"label" "SERVERS" 
-		"command" "OpenServerBrowser"
-	}
-	"CharacterSetupButton"
-	{
-		"label" "ITEMS"
-		"command" "engine open_charinfo"
-	}
-	"ReplaysButton"
-	{
-		"label" "REPLAYS"
-		"command" "engine replay_reloadbrowser"
-	}
-	"DemoUIButton"
-	{
-		"label" "q"
-		"command" "engine demoui"
-		"tooltip" "DEMOUI"
-	}
-	"ToggleScoreboard"
-	{
-		"label" "n"
-		"command" "engine toggle cl_hud_minmode"
-        "tooltip" "TOGGLE SCOREBOARD"
+		"label" 		"SERVERS" 
+		"command" 		"OpenServerBrowser"
+		"subimage" 		""
 	}
 	"CreateServerButton"
 	{
-		"label" 	"+"
-		"command" 	"OpenCreateMultiplayerGameDialog"
+		"label" 		"+"
+		"command" 		"OpenCreateMultiplayerGameDialog"
+		"subimage" 		""
 	}
-	"ConsoleButton"
+	"CharacterSetupButton"
 	{
-		"label"		"CONSOLE"
-		"command" 	"engine con_enable 1;toggleconsole"
+		"label" 		"ITEMS"
+		"command" 		"engine open_charinfo"
+		"subimage" 		""
 	}
-	"HomeServer"
+	"GeneralStoreButton"
 	{
-		"label" "7"
-		"command" "engine Home"
-        "tooltip" "HOME SERVER"
-	}
-	"QuitButton"
-	{
-		"label" "QUIT"
-		"command" "engine replay_confirmquit"
-		"OnlyAtMenu" "1"
+		"label" 		"STORE"
+		"command" 		"engine open_store"
+		"subimage" 		""
 	}
 	"SettingsButton"
 	{
-		"label" "OPTIONS"
-		"command" "OpenOptionsDialog"
+		"label" 		"OPTIONS"
+		"command" 		"OpenOptionsDialog"
+		"subimage" 		""
 	}
-    "AchievementsButton"
+	"ConsoleButton"
+	{
+		"label"			"CONSOLE"
+		"command" 		"engine con_enable 1;toggleconsole"
+		"subimage" 		""
+	}
+	"AdvOptionsButton"
+	{
+		"label"			"ADVANCED"
+		"command"		"opentf2options"
+		"subimage" 		""
+	}
+	"QuitButton"
+	{
+		"label" 		"QUIT"
+		"command" 		"engine replay_confirmquit"
+		"OnlyAtMenu" 	"1"
+		"subimage" 		""
+	}
+	
+	
+	"DemoUIButton"
+	{
+		"label" 		"q"
+		"command" 		"engine demoui"
+		"tooltip" 		"DEMOUI"
+	}
+	"ToggleScoreboard"
+	{
+		"label" 		"n"
+		"command" 		"engine toggle cl_hud_minmode"
+        "tooltip" 		"TOGGLE SCOREBOARD"
+		"subimage" 		""
+	}
+	"AchievementsButton"
 	{
 		"label"			"B"
 		"command"		"OpenAchievementsDialog"
-        "tooltip" "ACHIEVEMENTS"
+        "tooltip" 		"ACHIEVEMENTS"
+		"subimage" 		""
 	}
-    "AdvOptionsButton"
-	{
-		"label"		"@"
-		"command"	"opentf2options"
-		"tooltip"   "ADVANCED OPTIONS"
-	}
+	
+	
+	
 	// These buttons are only shown while in-game
-    
 	"DisconnectButton"
 	{
-		"label" "LEAVE"
-		"command" "engine disconnect"
+		"label" 		"LEAVE"
+		"command" 		"engine disconnect"
 		"OnlyInGame"	"1"
+		"subimage" 		""
 	}
 	"CallVoteButton"
 	{
 		"label"			"W"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"tooltip" "CALL VOTE"
+		"tooltip" 		"CALL VOTE"
+		"subimage" 		""
 	}
 	"MutePlayersButton"
 	{
 		"label"			"O"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-        "tooltip" "MUTE PLAYERS"
+        "tooltip" 		"MUTE PLAYERS"
+		"subimage" 		""
 	}
-	"RequestCoachButton"
+	
+	
+	
+	
+	
+	
+	"HomeServer"
 	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyAtMenu" "0"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"label" 		"7"
+		"command" 		"engine Home"
+        "tooltip" 		"HOME SERVER"
+		"subimage" 		""
 	}
 }

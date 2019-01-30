@@ -81,7 +81,6 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter2"
 		"xpos"			"0"
-		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"f0"
@@ -156,6 +155,7 @@
 			"depressedBgColor_override"		"BlackBorder"
 		}
 	}
+	
 	
 	"CloseButton"
 	{

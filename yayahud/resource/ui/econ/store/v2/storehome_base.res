@@ -201,11 +201,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SaxtonBackgroundPanel"
-		"xpos"			"c-415"
+		"xpos"			"99999"
 		"ypos"			"10"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"300"
+		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
 	
@@ -229,11 +229,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StoreBackgroundPanel"
-		"xpos"			"0"
+		"xpos"			"99999"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"proportiontoparent"	"1"
@@ -255,31 +255,6 @@
 		}
 	}
 		
-	"ReloadSchemeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"c-400"
-		"ypos"			"350"
-		"zpos"			"25"
-		"wide"			"100"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	
 	"ItemCategoryTabs"
 	{
 		"ControlName"		"CNavigationPanel"

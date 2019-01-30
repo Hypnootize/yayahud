@@ -1,3 +1,5 @@
+#base "../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"backpack_panel"
@@ -401,8 +403,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c195"
-		"ypos"			"318"
+		"xpos"			"c-288"
+		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -428,8 +430,8 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"318"
+		"xpos"			"c-260"
+		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -444,8 +446,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
-		"ypos"			"318"
+		"xpos"			"c-210"
+		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"

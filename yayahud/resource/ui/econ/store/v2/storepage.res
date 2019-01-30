@@ -56,7 +56,7 @@
 			"tall"			"62"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 						
@@ -114,7 +114,7 @@
 			"tall"			"25"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			
@@ -171,8 +171,8 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"110 110 110 255"
+		"bgcolor_override"	"WhiteS"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
 	}
@@ -200,20 +200,20 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
-		"disabledBgColor_override" "251 235 202 255"
-		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
-		"defaultSelectionBG2Color_override" "251 235 202 255"
+		"fgcolor_override"	"110 110 110 255"
+		"bgcolor_override"	"WhiteS"
+		"disabledFgColor_override" "110 110 110 255"
+		"disabledBgColor_override" "WhiteS"
+		"selectionColor_override" "WhiteS"
+		"selectionTextColor_override" "110 110 110 255"
+		"defaultSelectionBG2Color_override" "WhiteS"
 		
 		"Button"
 		{
 			"defaultFgColor_override"	"118 107 94 255"
-			"defaultBgColor_override"	"251 235 202 255"
+			"defaultBgColor_override"	"WhiteS"
 			"armedFgColor_override"	"138 127 114 255"
-			"armedBgColor_override"	"251 235 202 255"
+			"armedBgColor_override"	"WhiteS"
 			"paintbackgroundtype"	"2"
 		}
 	}
@@ -241,20 +241,20 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
-		"disabledBgColor_override" "251 235 202 255"
-		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
-		"defaultSelectionBG2Color_override" "251 235 202 255"
+		"fgcolor_override"	"110 110 110 255"
+		"bgcolor_override"	"WhiteS"
+		"disabledFgColor_override" "110 110 110 255"
+		"disabledBgColor_override" "WhiteS"
+		"selectionColor_override" "WhiteS"
+		"selectionTextColor_override" "110 110 110 255"
+		"defaultSelectionBG2Color_override" "WhiteS"
 		
 		"Button"
 		{
 			"defaultFgColor_override"	"118 107 94 255"
-			"defaultBgColor_override"	"251 235 202 255"
+			"defaultBgColor_override"	"WhiteS"
 			"armedFgColor_override"	"138 127 114 255"
-			"armedBgColor_override"	"251 235 202 255"
+			"armedBgColor_override"	"WhiteS"
 			"paintbackgroundtype"	"2"
 		}
 	}
@@ -270,7 +270,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"110 110 110 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -294,7 +294,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"110 110 110 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -320,7 +320,7 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"243 234 216 255"
+		"fgcolor"		"WhiteS"
 	}
 
 	"PrevPageButton"
@@ -426,7 +426,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"WhiteS"
 	}
 	
 	"SubcategoryFiltersLabel"
@@ -445,7 +445,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"WhiteS"
 	}
 	
 	"SortFilterLabel"
@@ -464,7 +464,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"WhiteS"
 	}
 	
 	"ClassFilterLabel"
@@ -483,7 +483,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"WhiteS"
 	}
 	
 	"ClassFilterNavPanel"
@@ -901,7 +901,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"110 110 110 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1076,7 +1076,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"110 110 110 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1298,7 +1298,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"110 110 110 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1520,7 +1520,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"110 110 110 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1742,7 +1742,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"110 110 110 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1964,7 +1964,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"110 110 110 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -2186,7 +2186,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"110 110 110 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -2408,7 +2408,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"110 110 110 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -2629,7 +2629,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"110 110 110 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{

@@ -1,3 +1,5 @@
+#base "../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"

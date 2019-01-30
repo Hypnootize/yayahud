@@ -188,13 +188,13 @@
 		"xpos"			"rs1"
 		"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"260"
+		"wide"			"320"
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
-		if_mini
+		"if_mini"
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
@@ -219,7 +219,7 @@
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
-			if_mini
+			"if_mini"
 			{
 				"visible"	"0"
 			}
@@ -231,29 +231,30 @@
 			"fieldName"		"DescLine1"
 			"xpos"			"65"
 			"ypos"			"37"
-			"wide"			"195"
+			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HeavyCaps18"
+			"font"			"NoveMedium16"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"	"195"
 				"font"	"HudFontSmallestBold"
 			}
 
 			"fonts"
 			{
 				"0"		"HeavyCaps18"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"1"		"NoveMedium14"
+				"2"		"NoveMedium12"
 			}
 		}
 
@@ -263,7 +264,7 @@
 			"fieldName"		"DescLine2"
 			"xpos"			"65"
 			"ypos"			"22"
-			"wide"			"195"
+			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -274,18 +275,19 @@
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"	"195"
 				"font"	"HudFontSmallestBold"
 			}
 
 			"fonts"
 			{
 				"0"		"HeavyCaps18"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"1"		"NoveMedium14"
+				"2"		"NoveMedium12"
 			}
 
 			"colors"
@@ -301,11 +303,11 @@
 			"fieldName"		"StatsContainer"
 			"xpos"			"64"
 			"ypos"			"0"
-			"wide"			"190"
+			"wide"			"205"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"			"rs1-10"
 				"ypos"			"0"
@@ -341,7 +343,7 @@
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
 					
-					if_mini
+					"if_mini"
 					{
 						"wide"			"100"
 					}
@@ -364,7 +366,7 @@
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
 					
-					if_mini
+					"if_mini"
 					{
 						"wide"			"100"
 					}
@@ -386,7 +388,7 @@
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f-2"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
@@ -394,6 +396,11 @@
 
 						"fgcolor_override"	"20 20 20 180"
 						"bgcolor_override"	"0 0 0 0"
+						
+						"if_mini"
+						{
+							"wide"			"f0"
+						}
 					}
 
 					"ContinuousProgressBar"
@@ -407,7 +414,12 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"Flavor"
+						
+						"if_mini"
+						{
+							"fgcolor_override"	"CreditsGreen"
+						}
 					}
 
 					"Frame"
@@ -416,11 +428,16 @@
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
+						
+						"if_mini"
+						{
+							"wide"		"f0"
+						}
 					}
 				}
 			}

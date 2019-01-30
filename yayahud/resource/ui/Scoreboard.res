@@ -72,7 +72,7 @@
         "labelText"     "MANN VS MACHINE"
         "textAlignment" "west"
         "xpos"          "c-292" 
-        "ypos"          "c70" 
+        "ypos"          "c20" 
         "zpos"          "15"
         "wide"          "287"
         "tall"          "17"
@@ -132,9 +132,16 @@
         "fgcolor"       "White"
 
         if_mvm
-        {
-            "visible" "1"
-        }
+		{
+			"font"			"NoveMedium16"
+			"textAlignment" "center"
+			"xpos"			"c-100"
+			"ypos"			"r45"
+			"zpos"          "15"
+			"wide"			"200"
+			"tall"			"18"
+			"fgcolor"		"White"
+		}
     }	
     "Spectators"
 	{
@@ -191,9 +198,9 @@
 		{
             "fillcolor"		"DarkGray"
 			"xpos"			"c-295"
-			"ypos"			"c87"
+			"ypos"			"c37"
 			"wide"			"590"
-			"tall"			"169"
+			"tall"			"200"
 		}
 	}
     "InfoBG"
@@ -224,10 +231,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTopLine"
-		"xpos"			"c-295"
-		"ypos"			"c85"
+		"xpos"			"c-288"
+		"ypos"			"c35"
 		"zpos"			"14"
-		"wide"			"410"
+		"wide"			"525"
 		"tall"			"2"
 		"fillcolor"		"Red"
 		"autoResize"	"0"
@@ -237,7 +244,7 @@
 
 		if_mvm
 		{
-			"visible"			"1"
+			"visible"	"1"
 		}
 	}
     "MvMBGTop"
@@ -245,7 +252,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTop"
 		"xpos"			"c-295"
-		"ypos"			"c70"
+		"ypos"			"c20"
 		"zpos"			"9"
 		"wide"			"590"
 		"tall"			"17"
