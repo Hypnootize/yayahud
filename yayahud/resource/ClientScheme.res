@@ -3633,7 +3633,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
+				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
 			}
