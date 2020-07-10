@@ -1,4 +1,4 @@
-#base "../resource/crosshairs/Crosshair Fonts.res"
+#base "../scripts/crosshairs/font/Crosshairs.res"
 
 Scheme
 {	

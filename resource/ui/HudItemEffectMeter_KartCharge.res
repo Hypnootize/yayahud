@@ -49,7 +49,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"bgcolor_override" "DarkGray"
+		"bgcolor_override" "GrayBG"
 		"fgcolor_override" "White"
 		"dulltext"		"0"
 		"brighttext"	"0"

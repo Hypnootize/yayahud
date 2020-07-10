@@ -42,7 +42,7 @@
 
 	"ObjectiveStatusTimePanel"
 	{
-		"ControlName"			"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"0"
 		"ypos"				"0"	
@@ -51,10 +51,15 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
+		
+		if_comp
+		{
+			"ypos"			"35"
+		}
 
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"MediumNumbers20"
 			"fgcolor"		"White"
@@ -65,12 +70,18 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"east"
+			"textAlignment"	"east"
+			
+			if_comp
+			{
+				"xpos"		"c-75"
+				"font"		"MediumNumbers14"
+			}
 		}
         
         "TimePanelLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelLabel"
 			"font"			"NoveMedium20"
 			"fgcolor"	    "White"
@@ -85,6 +96,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_comp
+			{
+				"xpos"			"c25"
+				"font"			"NoveMedium14"
+				"textAlignment"	"west"
+			}
 		}
 	}
 
@@ -107,7 +125,17 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		if_comp
+		{
+			"xpos"					"cs-0.5"
+			"ypos"					"34"
+			"textAlignment"			"center"
+			"font"					"MediumNumbers14"
+			"proportionaltoparent"	"1"
+		}
 	}
+	
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -122,9 +150,14 @@
 		"wide"			    "60"
 		"tall"			    "20"
 		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
+		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"1"
+		
+		if_comp
+		{
+			"ypos"			"50"
+		}
 	}
 	"StopWatchLabel"
 	{
