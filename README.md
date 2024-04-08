@@ -1,19 +1,14 @@
+<div align="center">
+
 # yayahud
+### By Whayay
 
+**[SCREENSHOTS](../screenshots/showcase.md)** -
+**[INSTALLATION](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/installation/windows_install.md)** -
+**[CONTRIBUTING](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/contributing/github_contributing.md)**
 
-<a>LINKS</a>
-====
-
-[TeamFortress.tv](https://www.teamfortress.tv/33738/ive-updated-some-huds)
-
-[Screenshot Album](https://imgur.com/a/LCENr)
-
-[Changelogs](https://github.com/Hypnootize/yayahud/commits/master)
-
-[Installation](https://imgur.com/a/w3Ah6)
-
-![](https://i.imgur.com/L5q0ZTE.jpg)
-
-<a>CREDITS</a>
-====
-**Created By:** Whayay
+![Main Menu](../screenshots/01_Main_Menu.jpg)
+![Health Buff](../screenshots/10_Health_Buff.jpg)
+![Health & Ammo Low](../screenshots/11_Health_Ammo_Low.jpg)
+![Scoreboard](../screenshots/14_Scoreboard.jpg)
+![Win & Damage](../screenshots/18_Win.jpg)
